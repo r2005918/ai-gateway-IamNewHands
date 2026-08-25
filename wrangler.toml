@@ -12,7 +12,7 @@ mode = "smart"
 # KV namespace — wrangler will auto-resolve by name
 [[kv_namespaces]]
 binding = "KV"
-id = "新的-namespace-id"
+id = "ai-gateway-IamNewHand"
 
 # M365 Copilot Session Durable Object — 承载 ChatHub WS 会话（绕过 Worker 墙钟限制，
 # 同会话并发串行化 + 会话绑定读写）。
